@@ -97,3 +97,43 @@ Thank the user for their purchase.<br>
 <br>
 
 <b> Structure of the program:</b>
+
+
+1. *Header Section*
+   - Include necessary libraries (e.g., stdio.h, stdlib.h, string.h).
+   - Define data structures for movies, snacks, and seats.
+
+2. *Global Variables*
+   - Define arrays for available movies and snacks.
+   - Initialize variables for tracking total price, selected seats, etc.
+
+3. *Function Declarations*
+   - void showMovies() – Display the list of available movies.
+   - void selectMovies() – Allow the user to select one or more movies.
+   - void getMemberDetails() – Prompt the user for member details (name, age).
+   - void showAvailableSeats() – Display the seating arrangement.
+   - void selectSeats() – Let the user choose seats.
+   - void showSnacks() – Display available snacks and beverages.
+   - void selectSnacks() – Let the user select snacks and calculate the cost.
+   - void finalizePayment() – Display the total bill and thank the user.
+
+4. *Main Function*
+   - Display a welcome message.
+   - Call showMovies() to display movies.
+   - Call selectMovies() to select movies 
+   - Call getMemberDetails() to get user/member details.
+   - Call showAvailableSeats() to display available seats.
+   - Call selectSeats() to let the user book seats.
+   - display and update the ticket bill.
+   - Ask the user if they want snacks:
+     - If "yes," call showSnacks() and selectSnacks().
+   - Call finalizePayment() to display the total cost and conclude.
+
+5. *Function Definitions*
+   - Implement each function separately:
+     - Use of loops for repeated tasks (e.g., selecting movies, seats, snacks).
+     - Use of conditional statements for user choices.
+     - Handle input validation where necessary.
+
+6. *End of Program*
+   - Return from main() to terminate the program.
