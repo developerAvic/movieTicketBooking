@@ -2,7 +2,7 @@
 <br>
 A simple movie booking program in C language
 <br>
-team members:
+Project Members:
 <br>
 1. Prem sah <br>
 2. Nandeesh <br>
