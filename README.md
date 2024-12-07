@@ -1,6 +1,6 @@
 # movieTicketBooking
 <br>
-A simple movie booking program in C language
+A simple movie ticket booking program in C language
 <br>
 Project Members:
 <br>
