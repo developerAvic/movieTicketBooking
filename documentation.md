@@ -19,7 +19,7 @@ A simple movie booking program in C language as a mini project.
 3. Promt the user to tell the name and age of the members<br>
 4. Show the available seats<br>
 5. Choice to select the seats according to the user choice<br>
-6. Ask the user if he is interseted in buying snacks and beverages or he wants to continue with the payment of the tickets<br>
+6. Ask the user if he is interested in buying snacks and beverages or he wants to continue with the payment of the tickets<br>
 7. Calculate the price of the tickets according to the age of the person<br>
 <i>OR</i> <br> 
 8. Show the available snacks and beverages <br>
