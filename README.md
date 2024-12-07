@@ -13,7 +13,7 @@ A simple movie booking program in C language as a mini project.
 <br>
 <b>Features of the program:</b><br>
 1. Show the available movies with genre and duration<br>
-2. Select the movie which the user prefers (could be one or mutiple movie and different price for different movie) <br>
+2. Select the movie which the user prefers (could be one or mutiple movie and different price for each movie) <br>
 3. Promt the user to tell the name and age of the members<br>
 4. Show the available seats<br>
 5. Choice to select the seats according to the user choice<br>
