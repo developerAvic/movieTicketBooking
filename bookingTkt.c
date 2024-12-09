@@ -93,14 +93,14 @@ int main()
 void displayScheduledMovies(struct Movie movies[], int count)
 {
     printf("Scheduled Movies:\n");
-    printf("%-5s %-25s %-15s %-20s %-15s %-10s %-10s\n", "No.", "Title", "Genre", "Duration (mins)", "Price per Ticket", "Date", "Time");
+    printf("%-5s %-25s %-15s %-20s %-20s %-15s %-10s\n", "No.", "Title", "Genre", "Duration (mins)", "Price per Ticket", "Date", "Time");
     printf("-------------------------------------------------------------------------------------------------------------\n");
 
     for (int i = 0; i < count; i++)
     {
         if (strcmp(movies[i].date, "Unscheduled") != 0)
         {
-            printf("%-5d %-25s %-15s %-20d %-15.2f %-10s %-10s\n",
+            printf("%-5d %-25s %-15s %-20d %-20.2f %-15s %-10s\n",
                    i + 1, movies[i].title, movies[i].genre, movies[i].duration, movies[i].tkt_Price, movies[i].date, movies[i].time);
         }
     }
@@ -109,15 +109,15 @@ void displayScheduledMovies(struct Movie movies[], int count)
 // Function to display the unscheduled movies
 void displayUnscheduledMovies(struct Movie movies[], int count)
 {
-    printf("\nUnscheduled Movies (Not Available for Booking):\n");
-    printf("%-5s %-25s %-15s %-20s %-15s %-10s %-10s\n", "No.", "Title", "Genre", "Duration (mins)", "Price per Ticket", "Date", "Time");
+    printf("\nUpcoming Movies (Not Available for Booking):\n");
+    printf("%-5s %-25s %-15s %-20s %-20s %-15s %-10s\n", "No.", "Title", "Genre", "Duration (mins)", "Price per Ticket", "Date", "Time");
     printf("-------------------------------------------------------------------------------------------------------------\n");
 
     for (int i = 0; i < count; i++)
     {
         if (strcmp(movies[i].date, "Unscheduled") == 0)
         {
-            printf("%-5d %-25s %-15s %-20d %-15.2f %-10s %-10s\n",
+            printf("%-5d %-25s %-15s %-20d %-20.2f %-15s %-10s\n",
                    i + 1, movies[i].title, movies[i].genre, movies[i].duration, movies[i].tkt_Price, "Unscheduled", "Unscheduled");
         }
     }
